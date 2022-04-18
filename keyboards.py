@@ -17,6 +17,16 @@ button_back = KeyboardButton('⬅ Назад')
 history_kb = ReplyKeyboardMarkup(resize_keyboard=True).add(button_small).add(button_big).add(button_back)
 
 
+# Клавиатура выбора истории санкт петербурга
+button_at = KeyboardButton('Александринский театр')
+button_ak = KeyboardButton('Александровская колонна')
+button_anl = KeyboardButton('Александро-Невская Лавра')
+button_big = KeyboardButton('')
+button_small = KeyboardButton('')
+button_big = KeyboardButton('')
+button_back = KeyboardButton('⬅ Назад')
+dosroprimechatelnosty_kb = ReplyKeyboardMarkup(resize_keyboard=True).add(button_small).add(button_big).add(button_back)
+
 
 # Клавиатура кнопка назад
 button_back = KeyboardButton('⬅ Назад')
